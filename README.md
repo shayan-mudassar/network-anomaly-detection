@@ -28,9 +28,38 @@ The project uses the **KDDCUP99 dataset**, a widely used benchmark dataset for n
    git clone https://github.com/shayan02/network-anomaly-detection.git
    cd network-anomaly-detection
    ```
-2. Run the project:
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the project:
    ```bash
    python main.py
+   ```
+
+## Notebook Overview
+The project is implemented in a Jupyter Notebook, consisting of **89 code cells** covering the following aspects:
+- Data preprocessing and cleaning.
+- Feature engineering and selection.
+- Implementation of k-means clustering and Random Forest classifiers.
+- Detailed evaluation and visualization of results.
+
+### Sample Code Snippets
+1. **Initial Setup**:
+   ```python
+   import os
+   from collections import defaultdict
+   import pandas as pd
+   import numpy as np
+   import matplotlib.pyplot as plt
+   from google.colab import drive
+   import warnings
+
+   %matplotlib inline
+   ```
+2. **Warnings Filter**:
+   ```python
+   warnings.filterwarnings('ignore')
    ```
 
 ## Usage
@@ -55,4 +84,3 @@ Contributions are welcome! Please open an issue or submit a pull request to prop
 ## Acknowledgments
 - **Dataset**: [KDDCUP99 Dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 - **Techniques**: Inspired by advancements in machine learning for cybersecurity.
-
