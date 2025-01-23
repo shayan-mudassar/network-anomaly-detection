@@ -28,14 +28,6 @@ The project uses the **KDDCUP99 dataset**, a widely used benchmark dataset for n
    git clone https://github.com/shayan02/network-anomaly-detection.git
    cd network-anomaly-detection
    ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the project:
-   ```bash
-   python main.py
-   ```
 
 ## Notebook Overview
 The project is implemented in a Jupyter Notebook, consisting of **89 code cells** covering the following aspects:
